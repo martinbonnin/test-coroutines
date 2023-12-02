@@ -9,6 +9,8 @@ kotlin {
   sourceSets {
     getByName("commonMain") {
       dependencies {
+
+        implementation("org.jetbrains.kotlinx:atomicfu:0.23.1")
         implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.8.0-RC")
       }
     }
